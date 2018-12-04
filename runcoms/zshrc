@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias px="proxychains"
+alias vue-ui="cd /opt/var/data/vue/ && nohup vue ui >> vue-ui.log &"
+alias bd="baidupcs"
+alias la="ls -al"
+alias pj="cd /opt/projects/"
+alias www="cd /opt/projects/www/"
